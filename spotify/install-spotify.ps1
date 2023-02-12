@@ -1,1 +1,1 @@
-choco install spotify -y
+choco install notepadplusplus.install -y
