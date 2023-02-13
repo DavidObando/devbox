@@ -1,2 +1,7 @@
-name: spotify
-powershellEntrypoint: "./install-spotify.ps1"
+name: choco
+powershellEntrypoint: "./choco.ps1 -Package parameters('package')"
+parameters:
+  - name: "package"
+    default: ""
+    type: "string"
+    required: true

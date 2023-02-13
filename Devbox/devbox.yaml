@@ -1,7 +1,7 @@
-name: project-sample-9
+name: demo
 tasks:
-  - name: chocolatey
+  - name: install-chocolatey
+  - name: choco
     parameters:
-      - name: version
-        value: 2.8.0
-  - name: spotify
+        - name: package
+          value: notepadplusplus.install
