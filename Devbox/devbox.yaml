@@ -3,12 +3,12 @@ image: test
 hostInformation: test
 supportsHibernation: false
 setupTasks:
-  - name: install-chocolatey
-  - name: choco
-    parameters:
+  - task: install-chocolatey
+  - task: choco
+    inputs:
         - name: package
           value: notepadplusplus.install
-  - name: choco
-    parameters:
+  - task: choco
+    inputs:
         - name: package
           value: vscode
