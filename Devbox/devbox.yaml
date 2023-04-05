@@ -6,9 +6,7 @@ setupTasks:
   - task: install-chocolatey
   - task: choco
     inputs:
-        - name: package
-          value: notepadplusplus.install
+      package: notepadplusplus.install
   - task: choco
     inputs:
-        - name: package
-          value: vscode
+      package: vscode
