@@ -1,2 +1,2 @@
 name: install-chocolatey
-powershellEntrypoint: "./install-chocolatey.ps1"
+command: "./install-chocolatey.ps1"

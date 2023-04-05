@@ -1,5 +1,8 @@
 name: demo
-tasks:
+image: test
+hostInformation: test
+supportsHibernation: false
+setupTasks:
   - name: install-chocolatey
   - name: choco
     parameters:
