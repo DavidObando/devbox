@@ -2,6 +2,6 @@ name: choco
 command: "./choco.ps1 -Package parameters('package')"
 inputs:
   package:
-    default: ""
+    defaultValue: ""
     type: "string"
     required: true
