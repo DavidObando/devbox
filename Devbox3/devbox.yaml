@@ -1,0 +1,11 @@
+name: example3
+hostInformation: general_a_8c32gb256ssd_v1
+supportsHibernation: false
+setupTasks:
+  - task: install-chocolatey
+  - task: choco
+    inputs:
+      package: vscode
+  - task: choco
+    inputs:
+      package: notepadplusplus
