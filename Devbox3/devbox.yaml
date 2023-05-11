@@ -1,5 +1,6 @@
 name: example3
 hostInformation: general_a_8c32gb256ssd_v1
+image: /subscriptions/dbf77359-2038-45ca-aa27-a3df4fae9251/resourceGroups/dayton/providers/Microsoft.DevCenter/devcenters/dayton/galleries/Default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m366/versions/1.0.0@1.0.0
 supportsHibernation: false
 setupTasks:
   - task: install-chocolatey
