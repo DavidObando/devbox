@@ -10,3 +10,4 @@ setupTasks:
   - task: choco
     inputs:
       package: notepadplusplus
+  - task: install-spotify
