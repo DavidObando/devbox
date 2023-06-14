@@ -17,6 +17,8 @@ setupTasks:
   - task: choco-as-user
     inputs:
       package: postman
+  - task: install-winget
+  
 #  - task: powershell
 #    inputs:
 #      command: |
