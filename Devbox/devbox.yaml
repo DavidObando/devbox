@@ -4,8 +4,8 @@ hostInformation: general_a_8c32gb256ssd_v1
 supportsHibernation: false
 setupTasks:
   - task: run-as-user
-  - task: install-winget
   - task: install-ps7
+  - task: install-winget
   - task: winget
     inputs:
       package: Notepad++.Notepad++
