@@ -9,9 +9,6 @@ setupTasks:
   - task: winget
     inputs:
       package: Notepad++.Notepad++
-  - task: winget
-    inputs:
-      package: Postman.Postman
   
   
 #  - task: powershell
