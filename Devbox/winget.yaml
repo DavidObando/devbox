@@ -29,12 +29,6 @@ properties:
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install 7zip
-      settings:
-        id: 7zip.7zip
-        source: winget
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
         description: Install .NET SDK
       settings:
         id: Microsoft.DotNet.SDK.6

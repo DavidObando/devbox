@@ -6,12 +6,9 @@ setupTasks:
   - task: run-as-user
   - task: install-ps7
   - task: install-winget
-  - task: winget
+  - task: winget-configure
     inputs:
-      package: Notepad++.Notepad++
-  - task: winget
-    inputs:
-      package: 7zip.7zip
+      downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/winget.yaml
   
   
 #  - task: powershell
