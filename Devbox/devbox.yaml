@@ -3,12 +3,16 @@ image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365
 hostInformation: general_a_8c32gb256ssd_v1
 supportsHibernation: false
 setupTasks:
-  - task: run-as-user
-  - task: install-ps7
-  - task: install-winget
-  - task: winget-configure
+  - task: winget-configure-ultra
     inputs:
-      downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/winget.yaml
+      configurationFile: C:/DevBoxCustomizationWinget/system.yaml
+      downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/systemwinget.yaml
+      runAsUser: false
+  - task: winget-configure-ultra
+    inputs:
+      configurationFile: C:/DevBoxCustomizationWinget/user.yaml
+      downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
+      runAsUser: true
   
   
 #  - task: powershell

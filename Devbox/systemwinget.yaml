@@ -11,13 +11,6 @@ properties:
         Ensure: Present
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install VS Code
-        allowPrerelease: true
-      settings:
-        id: Microsoft.VisualStudioCode
-        source: winget
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
         description: Install Notepad++
         allowPrerelease: true
       settings:
