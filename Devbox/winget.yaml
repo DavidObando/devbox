@@ -25,13 +25,6 @@ properties:
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install Postman
-        allowPrerelease: true
-      settings:
-        id: Postman.Postman
-        source: winget
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
         description: Install .NET SDK
         allowPrerelease: true
       settings:
