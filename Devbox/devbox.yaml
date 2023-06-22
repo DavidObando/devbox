@@ -5,12 +5,12 @@ supportsHibernation: false
 setupTasks:
   - task: winget-configure-ultra
     inputs:
-      configurationFile: C:/DevBoxCustomizationWinget/system.yaml
+      configurationFile: C:\DevBoxCustomizationWinget\system.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/systemwinget.yaml
       runAsUser: false
   - task: winget-configure-ultra
     inputs:
-      configurationFile: C:/DevBoxCustomizationWinget/user.yaml
+      configurationFile: C:\DevBoxCustomizationWinget\user.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
       runAsUser: true
   
