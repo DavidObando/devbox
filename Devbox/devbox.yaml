@@ -14,3 +14,6 @@ setupTasks:
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
       runAsUser: true
   - task: winget-configure-system
+  - task: winget
+    inputs:
+      package: Notepad++.Notepad++
