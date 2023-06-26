@@ -13,3 +13,7 @@ setupTasks:
       configurationFile: C:\DevBoxCustomizationWinget\user.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
       runAsUser: true
+  - task: winget
+    inputs:
+      package: 9P7KNL5RWT25
+      runAsUser: true
