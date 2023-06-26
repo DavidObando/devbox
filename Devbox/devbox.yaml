@@ -10,10 +10,6 @@ setupTasks:
       runAsUser: false
   - task: winget
     inputs:
-      package: "Notepad++.Notepad++"
-      runAsUser: false
-  - task: winget
-    inputs:
       configurationFile: C:\DevBoxCustomizationWinget\user.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
       runAsUser: true
