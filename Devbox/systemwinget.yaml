@@ -11,13 +11,6 @@ properties:
         Ensure: Present
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install Notepad++
-        allowPrerelease: true
-      settings:
-        id: Notepad++.Notepad++
-        source: winget
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
         description: Install .NET SDK
         allowPrerelease: true
       settings:
