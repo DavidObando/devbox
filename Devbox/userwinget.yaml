@@ -12,8 +12,8 @@ properties:
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install VS Code
+        description: Install Postman
         allowPrerelease: true
       settings:
-        id: Microsoft.VisualStudioCode
+        id: Postman.Postman
         source: winget
