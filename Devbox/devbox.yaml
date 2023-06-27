@@ -5,15 +5,15 @@ supportsHibernation: false
 setupTasks:
   - task: winget
     inputs:
-      configurationFile: C:\DevBoxCustomizationWinget\system.yaml
+      configurationFile: C:\WinGetConfig\system.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/systemwinget.yaml
       runAsUser: false
   - task: winget
     inputs:
-      configurationFile: C:\DevBoxCustomizationWinget\user.yaml
+      configurationFile: C:\WinGetConfig\user.yaml
       downloadUrl: https://raw.githubusercontent.com/daytonellwanger/devbox/main/Devbox/userwinget.yaml
       runAsUser: true
   - task: winget
     inputs:
-      package: 9P7KNL5RWT25
+      package: 9P7KNL5RWT25 # sysinternals
       runAsUser: true
