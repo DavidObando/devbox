@@ -1,6 +1,6 @@
 name: sample
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365
-hostInformation: general_a_8c32gb256ssd_v1
+hostInformation: general_a_32c128gb2048ssd_v1
 supportsHibernation: false
 setupTasks:
   - task: clone-winget-configurations
@@ -16,3 +16,6 @@ setupTasks:
     inputs:
       package: 9P7KNL5RWT25 # sysinternals
       runAsUser: true
+  - task: git-clone
+    inputs:
+      cloneUri: https://devdiv.visualstudio.com/DefaultCollection/OnlineServices/_git/azure-devcenter
