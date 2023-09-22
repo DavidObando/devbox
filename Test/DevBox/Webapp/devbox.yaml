@@ -1,0 +1,4 @@
+name: Webapp
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365
+hostInformation: general_i_16c64gb1024ssd_v2
+supportsHibernation: false
